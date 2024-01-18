@@ -30,7 +30,7 @@ body{
 .navbar{
     padding-top: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 30px;
 
@@ -39,12 +39,14 @@ body{
 .navbar-left{
     display: flex;
     justify-content: flex-start;
+    margin-left: 150px;
 
 }
 
 .navbar-right{
     display: flex;
     flex-wrap: wrap;
+    margin-right: 150px;
     gap: 20px;
 }
 
@@ -52,7 +54,7 @@ body{
     background-color: #1f2937;
     display: flex;
     justify-content:center;
-    height: 400px;
+    height: 350px;
     width: 100%;
 
 }
