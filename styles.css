@@ -53,6 +53,7 @@ body{
     background-color: #1f2937;
     display: flex;
     justify-content:center;
+    align-items: center;
     height: 350px;
     width: 100%;
 
@@ -62,7 +63,7 @@ body{
 .hbleft{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     margin-left: 20px;
     width: 50%;
@@ -74,8 +75,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-right: 20px;
-    width: 50%;
+    margin-left: 4%;
 }
 
 
@@ -97,8 +97,12 @@ body{
 
 }
 
+.buttoncontainer1{
+    display: flex;
+    justify-content: flex-start;
+}
+
 .button{
-    margin-top: 10px;
     background-color: #3882f6;
     color: #fff;
     border: none;
@@ -185,11 +189,11 @@ strong{
 .bluebox{
     display: flex;
     align-items: center;
-    height: 130px;
-    width: 1020px;
+    height: 100px;
+    width: 75%;
     background-color: #3882f6;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 5px;
 }
 
 .calltoaction{
@@ -198,7 +202,7 @@ strong{
     width: 100%;
 }
 
-.buttoncontainer{
+.buttoncontainer2{
     display: flex;
     justify-content: flex-end;
     align-items: center;
