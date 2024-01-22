@@ -177,12 +177,14 @@ strong{
     height: 300px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
     flex-wrap: wrap;
 }
 
 .bluebox{
+    display: flex;
+    align-items: center;
     height: 130px;
     width: 1020px;
     background-color: #3882f6;
@@ -193,13 +195,20 @@ strong{
 .calltoaction{
     display: flex;
     justify-content: space-around;
+    width: 100%;
+}
+
+.buttoncontainer{
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
 }
 
+.catext{
+    color: white;
+}
+
 .button2{
-    display: flex;
-    align-self: start;
-    justify-content: center;
     margin-top: 10px;
     background-color: #3882f6;
     color: #fff;
@@ -208,5 +217,5 @@ strong{
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
