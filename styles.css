@@ -173,3 +173,40 @@ strong{
     text-align: right;
 }
 
+.fithsection{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.bluebox{
+    height: 130px;
+    width: 1020px;
+    background-color: #3882f6;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.calltoaction{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button2{
+    display: flex;
+    align-self: start;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: #3882f6;
+    color: #fff;
+    border-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
