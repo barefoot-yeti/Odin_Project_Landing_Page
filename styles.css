@@ -38,14 +38,14 @@ body{
 .navbar-left{
     display: flex;
     justify-content: flex-start;
-    margin-left: 120px;
+    margin-left: 5%
 
 }
 
 .navbar-right{
     display: flex;
     flex-wrap: wrap;
-    margin-right: 120px;
+    margin-right: 5%;
     gap: 20px;
 }
 
@@ -65,7 +65,7 @@ body{
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 4%;
     width: 50%;
     
 }
@@ -123,6 +123,7 @@ body{
     border: #f9faf8;
     height: 200px;
     width: 450px;
+    margin-right: 5%;
 }
 
 .thirdsection{
@@ -134,8 +135,8 @@ body{
 }
 
 .informationtext{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     font-size: 38px;
     font-weight:bolder;
     color: #1f2937;
@@ -223,4 +224,18 @@ strong{
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
+}
+
+.footer{
+    width:100%;
+    height: 100px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copytext{
+    color: #fff;
+    font-size: small;
 }
